@@ -1,0 +1,43 @@
+/*.iyGKhX .right-content .ring1 {
+    position: absolute;
+    bottom: 10%;
+    right: 0px;
+    left: auto;
+    animation: 20s ease 0s infinite normal none running move2;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.iyGKhX .right-content .message1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: auto;
+    animation: 5s ease 0s infinite normal none running move;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.iyGKhX .right-content .message2 {
+    position: absolute;
+    bottom: 15%;
+    left: 0px;
+    animation: 8s ease 0.5s infinite normal none running move;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+
+      <div className='iyGKhX'>
+        <div className='container header__container'>
+          <h5>Hello I'm</h5>
+          <h1>İlker</h1>
+        </div>
+        <div class="right-content">
+          <img src="/static/media/phone.9ffcf787.svg" alt="" class="phone" />
+          <img src="/static/media/ring_orange.25b28ee1.svg" alt="" class="ring1" />
+          <img src="/assets/message_pink.3b52b420.svg" alt="" class="message1" />
+          <img src="./header/message_blue.3065b5d0.svg" alt="" class="message2" />
+          <Bluemessage className="message2"  />
+        </div>
+      </div>
+
+      
+*/
